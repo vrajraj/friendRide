@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "32767459203",
+    "firebase_url": "https://docsfaces.firebaseio.com",
+    "project_id": "docsfaces",
+    "storage_bucket": "docsfaces.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32767459203:android:72cc5242ec730833",
+        "android_client_info": {
+          "package_name": "com.example.docsfaces"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJICAa0aXdBO_erVWPzCv17PsFJ_X_hNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32767459203-o08pmvuhpvbvekiol3ojl8ik7j50085u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
