@@ -7,7 +7,7 @@ dependencies:
   font_awesome_flutter: ^8.2.0
   firebase_auth: ^0.7.0
   google_sign_in: ^3.2.4
-
+  carousel_pro: ^0.0.13
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.0
@@ -33,6 +33,14 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
    - assets/docsfaces.jpg
+   - assets/ad1.png
+   - assets/ad2.jpg
+   - assets/ad3.jpg
+   - assets/ad4.png
+   - assets/icons/Appointment.png
+   - assets/icons/hospital.png
+   - assets/icons/lab.png
+   - assets/icons/posts.png
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
