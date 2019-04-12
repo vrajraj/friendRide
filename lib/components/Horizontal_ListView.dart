@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:login/pages/page.dart';
+import 'package:login/pages/feed.dart';
 
 class horizontalList extends StatelessWidget {
   @override
@@ -10,7 +10,7 @@ class horizontalList extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         children: <Widget>[
           InkWell(
-            onTap: () {Navigator.push(context, MaterialPageRoute(builder: (context)=>new car()));},
+            onTap: () {Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> new feed()));},
             child: Container(
               width: 100.0,
               child: ListTile(

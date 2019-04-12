@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:login/components/Horizontal_ListView.dart';
 import 'package:login/auth.dart';
 import 'package:carousel_pro/carousel_pro.dart';
+import 'package:login/pages/posts.dart';
+import 'package:login/login_page.dart';
+import 'package:login/pages/page.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({this.auth, this.onSignOut});
@@ -43,9 +46,9 @@ class _HomePageState extends State<HomePage> {
           AssetImage('assets/ad4.png'),
 
         ],
-        autoplay: false,
+        autoplay: true,
         showIndicator: false,
-
+        autoplayDuration: Duration(seconds: 12),
 
       ),
     );
@@ -110,7 +113,7 @@ class _HomePageState extends State<HomePage> {
     children: <Widget>[
     new IconButton(icon: Icon(Icons.home),iconSize: 35, color: Colors.black, onPressed:(){}),
     new IconButton(icon: Icon(Icons.search),iconSize: 35,color: Colors.black, onPressed:(){}),
-    new IconButton(icon: Icon(Icons.add_box),iconSize: 35,color: Colors.black, onPressed:(){}),
+    new IconButton(icon: Icon(Icons.add_box),iconSize: 35,color: Colors.black, onPressed:(){Navigator.push(context, MaterialPageRoute(builder: (context)=> new posts()));}),
     new IconButton(icon: Icon(Icons.favorite),iconSize: 35,color: Colors.black, onPressed:(){}),
     new IconButton(icon: Icon(Icons.account_circle),iconSize: 35,color: Colors.black, onPressed:(){}),
     ],
