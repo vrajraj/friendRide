@@ -27,13 +27,9 @@ class _SplashState extends State<Splash> {
           Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            CircleAvatar(
-              child: Text("DocsFaces",style: TextStyle(color: Colors.black,fontSize: 30.0),),
-              backgroundColor: Colors.indigo,
-              radius: 100.0,
-            ),
-            Padding(padding: EdgeInsets.only(top: 20.0)),
-            Text("Explore  .  Visit  .  Post",style: TextStyle(color: Colors.indigo,fontSize: 25.0),)
+            Image(image: AssetImage('assets/icons/splash.png')),
+            Padding(padding: EdgeInsets.only(top: 40.0)),
+            Text(" Find  .  Ride  .  Visit ",style: TextStyle(color: Colors.white,fontSize: 25.0),)
 
           ],
           )

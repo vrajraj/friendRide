@@ -39,12 +39,17 @@ flutter:
    - assets/ad4.png
    - assets/atul.jpg
    - assets/a1.jpg
+   - assets/Photo from Vrajraj Gohil.jpg
+   - assets/IMG20190423163553.jpg
+   - assets/IMG-20190624-WA0014.jpg
    - assets/a2.jpg
    - assets/a3.jpg
    - assets/icons/Appointment.png
    - assets/icons/hospital.png
    - assets/icons/lab.png
    - assets/icons/posts.png
+   - assets/icons/splash.png
+   - assets/icons/logo.png
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

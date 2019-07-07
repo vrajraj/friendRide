@@ -312,7 +312,7 @@ class _LoginPageState extends State<LoginPage> {
             shrinkWrap: true,
             children: <Widget>[
               CircleAvatar(
-                child: Text("DocsFaces",
+                child: Text("FriendRide",
                   style: TextStyle(color: Colors.white, fontSize: 25.0),),
                 backgroundColor: Colors.indigoAccent,
                 radius: 70.0,

@@ -1,43 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:login/auth.dart';
-class logout extends StatelessWidget {
-  logout({this.auth, this.onSignOut});
-
-  final BaseAuth auth;
-  final VoidCallback onSignOut;
-
+class Page1 extends StatefulWidget {
   @override
-    Widget build(BuildContext context) {
-      void _signOut() async {
-        try {
-          await auth.signOut();
-          onSignOut();
-        } catch (e) {
-          print(e);
-        }
-      }
+  _Page1State createState() => _Page1State();
+}
 
-      //main part
-    return Scaffold(
-      backgroundColor: Colors.indigoAccent,
-      body: new Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Text('            life is too small , live it healthy ',style: TextStyle(color: Colors.white,fontSize: 25.0,fontStyle: FontStyle.italic), ),
-          RaisedButton(
-            onPressed:_signOut,
-            child: Text('Logout',style: TextStyle(color: Colors.indigoAccent),),
-            color: Colors.white,
-
-          ),
-        ],
-
-      ),
-
-
-
+class _Page1State extends State<Page1> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
 
     );
   }
-
-  }
+}
